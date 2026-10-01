@@ -1,0 +1,7 @@
+# ADK Services Configuration
+# Connects ADK memory service to Vertex AI Memory Bank (Agent Engine)
+
+services:
+  - scheme: agentengine
+    type: memory
+    uri: agentengine://5858125385023094784
